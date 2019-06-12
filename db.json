@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "User",
+      "lastname": "One",
+      "email": "userOne@mail.com",
+      "username": "user-one",
+      "password": "password"
+    },
+    {
+      "id": 2,
+      "name": "User",
+      "lastname": "Two",
+      "email": "userTwo@mail.com",
+      "username": "user-two",
+      "password": "password"
+    },
+    {
+      "id": 3,
+      "name": "User",
+      "lastname": "Three",
+      "email": "userThree@mail.com",
+      "username": "user-three",
+      "password": "password"
+    },
+    {
+      "id": 4,
+      "name": "User",
+      "lastname": "Four",
+      "email": "userFour@mail.com",
+      "username": "user-four",
+      "password": "password"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "author": "Author Post One",
+      "title": "Post 1 title",
+      "content": "Lorem ipsum dolor sit amet consectetur adipiscing elit taciti eleifend nam, hendrerit iaculis dictum aptent ut ridiculus orci feugiat platea mattis, vestibulum pretium porta praesent pulvinar justo aliquet imperdiet laoreet. Nisl nisi tortor platea ultrices commodo nulla vitae morbi",
+      "fullcontent": "Super duper full content"
+    },
+    {
+      "id": 2,
+      "author": "Author Post Two",
+      "title": "Post 2 title",
+      "content": "Lorem ipsum dolor sit amet consectetur adipiscing elit taciti eleifend nam, hendrerit iaculis dictum aptent ut ridiculus orci feugiat platea mattis, vestibulum pretium porta praesent pulvinar justo aliquet imperdiet laoreet. Nisl nisi tortor platea ultrices commodo nulla vitae morbi",
+      "fullcontent": "Super duper full content"
+    },
+    {
+      "id": 3,
+      "author": "Author Post Three",
+      "title": "Post 3 title",
+      "content": "Lorem ipsum dolor sit amet consectetur adipiscing elit taciti eleifend nam, hendrerit iaculis dictum aptent ut ridiculus orci feugiat platea mattis, vestibulum pretium porta praesent pulvinar justo aliquet imperdiet laoreet. Nisl nisi tortor platea ultrices commodo nulla vitae morbi",
+      "fullcontent": "Super duper full content"
+    },
+    {
+      "id": 4,
+      "author": "Author Post Four",
+      "title": "Post 4 title",
+      "content": "Lorem ipsum dolor sit amet consectetur adipiscing elit taciti eleifend nam, hendrerit iaculis dictum aptent ut ridiculus orci feugiat platea mattis, vestibulum pretium porta praesent pulvinar justo aliquet imperdiet laoreet. Nisl nisi tortor platea ultrices commodo nulla vitae morbi",
+      "fullcontent": "Super duper full content"
+    },
+    {
+      "author": "Raquel",
+      "title": "Primer Post",
+      "content": "Omaiga, new content",
+      "id": 5
+    }
+  ]
+}

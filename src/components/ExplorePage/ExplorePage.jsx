@@ -6,7 +6,7 @@ import Header from '../Header/Header';
 const ExplorePage = () => (
     <div className="explorepage">
         <Header />
-        !EXPLORE! 
+        !EXPLORE! Different posts
     </div>
 );
 
