@@ -8,11 +8,20 @@ import './Header.css';
 
 const Header = () => {
     return (
+        <>
         <div className='header'>
+        <div className='brand'>
         <Logo />
-        <h1> Bloggosfera </h1>  
-        <SearchPage />
+        <h2> Bloggosfera </h2>  
         </div>
+        <div className="searchbar">
+            <SearchPage />
+        </div>
+        <div className="bar">
+            About  ||  Log In 
+        </div>
+        </div>
+        </>
     )
 };
 

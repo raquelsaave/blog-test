@@ -6,16 +6,22 @@ import Button from 'react-bootstrap/Button';
 import Header from '../Header/Header';
 import Login from '../Login/Login'
 
+import './StartPage.css';
 
 
 const StartPage = () => {
     return (
+    <>
+    <div className="welcome">
     <div className="start">
         <Header />
-        CONTENIDO INICIAL
         <Login />
-        <Button variant="link">Login</Button>
     </div>
+    <div className="nav"> 
+        hola
+    </div>
+    </div>
+    </>
     )
 };
 

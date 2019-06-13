@@ -25,11 +25,11 @@ class UpdateItem extends Component {
   }
 
   update(data) {
-    patchData('items', this.props.id, data).then(this.props.hide).catch(this.showError);
+    patchData('posts', this.props.id, data).then(this.props.hide).catch(this.showError);
   }
 
   render() {
-    const {author, title, content} = this.props;
+    const {author, title, content, fullcontent} = this.props;
     const alert = this.state.error && (<Alert variant="danger">Something went wrong</Alert>);
     return (
       <Modal show={this.props.show} onHide={this.props.hide}>
@@ -38,7 +38,7 @@ class UpdateItem extends Component {
         </Modal.Header>
 
         <Modal.Body>
-          <ItemForm submit={this.update} data={{author, title, content}} />
+          <ItemForm submit={this.update} data={{author, title, content, fullcontent}} />
         </Modal.Body>
         {alert}
       </Modal>

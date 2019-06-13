@@ -6,6 +6,8 @@ import Route from 'react-router-dom/Route';
 import StartPage from './StartPage/StartPage'
 import MainPage from './MainPage/MainPage'
 import ExplorePage from './ExplorePage/ExplorePage'
+import BlogPost from './BlogPost/BlogPost'
+import Footer from './Footer/Footer'
 //CSS
 import './App.css';
 function App() {
@@ -14,6 +16,8 @@ function App() {
     <Route exact path="/" component={StartPage} />
     <Route path="/Main" component={MainPage} />
     <Route path="/Explore" component={ExplorePage} />
+    <Route path="/BlogPost" component={BlogPost} />
+    <Route component={Footer} />
     </BrowserRouter>
   );
 }

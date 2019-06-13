@@ -1,8 +1,27 @@
 .btn.btn-primary{
     background-color: rgb(34, 174, 179);
     color: White;
+    justify-content: flex-end
 }
 .btn.btn-secondary{
     background-color: rgb(44, 207, 112);
     color: White;
+}
+.navMain{
+    display:flex;
+    justify-content: flex-end;
+}
+.mainPage{
+
+}
+.content{
+    display:flex;
+    justify-content: space-between;
+}
+.info{
+    width: 40%;
+    background-color:rgba(47, 141, 121, 0.26);
+}
+.posts1{
+    width: 60%;
 }

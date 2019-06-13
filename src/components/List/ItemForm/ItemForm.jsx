@@ -32,7 +32,7 @@ class ItemForm extends Component {
         this.setState({ content: target.value });
     }
     updateFullContent({ target }) {
-        this.setState({ content: target.value });
+        this.setState({ fullcontent: target.value });
     }
 
     render(){

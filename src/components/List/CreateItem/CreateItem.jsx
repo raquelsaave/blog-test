@@ -16,6 +16,7 @@ class CreateItem extends Component {
             author: '',
             title: '',
             content: '',
+            fullcontent: '',
             error: false,
         }
         this.create = this.create.bind(this);
