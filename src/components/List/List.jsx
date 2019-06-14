@@ -7,6 +7,8 @@ import CreateItem from './CreateItem/CreateItem'
 
 import Button from 'react-bootstrap/Button';
 import './List.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlus } from '@fortawesome/free-solid-svg-icons'
 
 class List extends Component {
     constructor(props) {
@@ -51,7 +53,7 @@ class List extends Component {
         return (
             <>
                 <CreateItem show={this.state.creating} hide={this.closeModal} />
-                <Button variant="secondary" onClick={this.createItem}>Add new Post</Button>
+                <Button variant="secondary" onClick={this.createItem}> <FontAwesomeIcon icon={faPlus} /> Add new Post</Button>
                 {this.renderItems()}
             </>
         );

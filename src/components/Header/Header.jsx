@@ -3,7 +3,6 @@ import React from 'react';
 // Components
 import Logo from './Logo/Logo';
 import SearchPage from '../SearchPage/SearchPage'
-
 import './Header.css';
 
 const Header = () => {

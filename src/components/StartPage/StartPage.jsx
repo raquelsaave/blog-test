@@ -15,14 +15,15 @@ const StartPage = () => {
     <div className="welcome">
     <div className="start">
         <Header />
-        <Login />
     </div>
-    <div className="nav"> 
-        hola
+    <div className="body">
+        <Login />
+        login, create account
     </div>
     </div>
     </>
     )
 };
+
 
 export default StartPage;

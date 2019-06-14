@@ -35,18 +35,11 @@
   ],
   "posts": [
     {
-      "id": 2,
-      "author": "Author Post Two",
-      "title": "Post 2 title",
-      "content": "Modificado!",
-      "fullcontent": "Super duper full content"
-    },
-    {
       "id": 3,
-      "author": "Author Post Three",
-      "title": "Post 3 title",
+      "author": "Primer Post",
+      "title": "Titulo Chidowan",
       "content": "Lorem ipsum dolor sit amet consectetur adipiscing elit taciti eleifend nam, hendrerit iaculis dictum aptent ut ridiculus orci feugiat platea mattis, vestibulum pretium porta praesent pulvinar justo aliquet imperdiet laoreet. Nisl nisi tortor platea ultrices commodo nulla vitae morbi",
-      "fullcontent": "Super duper full content"
+      "fullcontent": "Contenido entero chidowan "
     },
     {
       "id": 4,
