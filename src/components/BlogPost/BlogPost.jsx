@@ -1,12 +1,15 @@
 import React from 'react';
-import Header from '../Header/Header';
+
+//
+import ProfPic from './ProfPic/ProfPic';
+import Cover from './Cover/Cover';
 
 const BlogPost = () => {
     return (
     <>
     <div className="blogpost">
-        <Header />
-        HOLA BLOG
+        <ProfPic />
+        <Cover />
     </div>
     </>
     )

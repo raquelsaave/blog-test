@@ -13,12 +13,18 @@
 }
 .content{
     display:flex;
-    justify-content: space-between;
+    /* justify-content: flex-end; */ 
 }
 .info{
     width: 40%;
     background-color:rgba(47, 141, 121, 0.26);
+    margin: 20px;
+    padding:10px;
 }
 .posts1{
     width: 60%;
+}
+
+.btn-light {
+    margin:15px;
 }
