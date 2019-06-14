@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => (
     <div className="footer">
-        Footer
+        © 2018 Copyright: blog.com
     </div>
 
 );

@@ -2,12 +2,17 @@ import React from 'react';
 import Link from 'react-router-dom/Link';
 
 // Components
-import logo from './blog.jpg'
+import logotipo from './blog.png'
+
+// Estilos
+import './Logo.css';
 
 const Logo = () => (
-    <Link to="/">
-    <img src={logo} alt={"logo"} width={"70px"} />
-    </Link>
+    <div className="logo">
+        <Link to="/">
+            <img src={logotipo} alt={"logo"} width={"70px"} />
+        </Link>
+    </div>
 );
 
 export default Logo;

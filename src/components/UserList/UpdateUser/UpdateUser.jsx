@@ -6,11 +6,11 @@ import { patchData } from '../../../utils/api';
 // Components
 import Modal from 'react-bootstrap/Modal';
 import Alert from 'react-bootstrap/Alert';
-import ItemForm from '../ItemForm/ItemForm';
+import UserForm from '../UserForm/UserForm';
 
-class UpdateItem extends Component {
+class UpdateUser extends Component {
   constructor(props) {
-    super(props); 
+    super(props);
 
     this.state = {
       error: false,
@@ -25,20 +25,20 @@ class UpdateItem extends Component {
   }
 
   update(data) {
-    patchData('posts', this.props.id, data).then(this.props.hide).catch(this.showError);
+    patchData('users', this.props.id, data).then(this.props.hide).catch(this.showError);
   }
 
   render() {
-    const {author, title, content, fullcontent} = this.props;
+    const  {name, lastname, email, username, password} = this.props;
     const alert = this.state.error && (<Alert variant="danger">Something went wrong</Alert>);
     return (
       <Modal show={this.props.show} onHide={this.props.hide}>
         <Modal.Header closeButton>
-          <Modal.Title>Edit Item</Modal.Title>
+          <Modal.Title>Edit Info</Modal.Title>
         </Modal.Header>
 
         <Modal.Body>
-          <ItemForm submit={this.update} data={{author, title, content, fullcontent}} />
+          <UserForm submit={this.update} data={{name, lastname, email, username, password}} />
         </Modal.Body>
         {alert}
       </Modal>
@@ -46,4 +46,4 @@ class UpdateItem extends Component {
   }
 }
 
-export default UpdateItem;
+export default UpdateUser;

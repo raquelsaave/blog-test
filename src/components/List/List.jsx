@@ -40,6 +40,11 @@ class List extends Component {
     }
 
     renderItems() {
+        if(this.state.items.length == 0){
+            return <div> No hay datos por mostrar :(</div>
+        }
+
+
         return this.state.items.map((item, i) => (
             <Item
                 key={`item-${i}`}

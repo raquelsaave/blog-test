@@ -8,11 +8,13 @@ import MainPage from './MainPage/MainPage'
 import ExplorePage from './ExplorePage/ExplorePage'
 import BlogPost from './BlogPost/BlogPost'
 import Footer from './Footer/Footer'
+import Header from './Header/Header'
 //CSS
-import './App.css';
+//import './App.css';
 function App() {
   return (
     <BrowserRouter>
+    <Route component={Header} />
     <Route exact path="/" component={StartPage} />
     <Route path="/Main" component={MainPage} />
     <Route path="/Explore" component={ExplorePage} />

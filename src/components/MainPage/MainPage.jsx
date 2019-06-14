@@ -1,7 +1,6 @@
 import React from 'react';
 
 // Components
-import Header from '../Header/Header';
 import Link from 'react-router-dom/Link';
 import List from '../List/List';
 
@@ -15,7 +14,6 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons'
 const MainPage = () => (
     <div className="mainpage">
         <>
-            <Header />
             <h1>PAGINA PRINCIPAL DE BLOG </h1>
             <div className="navMain">
                 <Link to="/Explore">

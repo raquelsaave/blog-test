@@ -31,13 +31,39 @@
       "email": "userFour@mail.com",
       "username": "user-four",
       "password": "password"
+    },
+    {
+      "name": "Raquel",
+      "lastname": "Saavedra",
+      "email": "raquel_2496@hotmail.com",
+      "username": "Raca2496",
+      "password": "sweetheart",
+      "id": 5
+    },
+    {
+      "name": "Raquel",
+      "lastname": "Saavedra",
+      "email": "raquel_2496@hotmail.com",
+      "username": "Raca2496",
+      "password": "sweetheart",
+      "id": 6
+    },
+    {
+      "name": "s",
+      "lastname": "s",
+      "email": "d",
+      "username": "d",
+      "password": "d",
+      "id": 7
     }
   ],
   "posts": [
     {
+      "userid": " ",
       "id": 3,
       "author": "Primer Post",
       "title": "Titulo Chidowan",
+      "img": "url",
       "content": "Lorem ipsum dolor sit amet consectetur adipiscing elit taciti eleifend nam, hendrerit iaculis dictum aptent ut ridiculus orci feugiat platea mattis, vestibulum pretium porta praesent pulvinar justo aliquet imperdiet laoreet. Nisl nisi tortor platea ultrices commodo nulla vitae morbi",
       "fullcontent": "Contenido entero chidowan "
     },
@@ -49,17 +75,23 @@
       "fullcontent": "Super duper full content"
     },
     {
-      "author": "Raquel",
-      "title": "Primer Post",
-      "content": "Omaiga, new content",
-      "id": 5
-    },
-    {
       "author": "Raquel Saavedra",
       "title": "I hope it works",
       "content": "-- Git Flow: Metodologia de git que sigue la empresa\n-- Branches: Master  ( Lo que ve el cliente ) - Development ( De aqui se crean las branches y los commits.\n--Al hacer fork, el proyecto se encuentra en Remoto-Local-Master",
       "fullcontent": "",
       "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "postid": " ",
+      "comment": " " ,
+      "usercomment": " "       
+    },
+    {
+      "postid": " ",
+      "comment": " ",
+      "usercomment": " "      
     }
   ]
 }

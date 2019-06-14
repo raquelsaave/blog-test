@@ -1,16 +1,9 @@
 .footer{
-    /* display:flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    height: 80px;
-    background-color: mediumaquamarine;
-    color: white;
-    vertical-align: baseline */
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(19, 151, 151);
-    color: white;
+    background-color: rgba(175, 179, 178, 0.541);
+    color:white;
     text-align: center;
 }
