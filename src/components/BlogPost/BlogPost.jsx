@@ -8,8 +8,8 @@ const BlogPost = () => {
     return (
     <>
     <div className="blogpost">
-        <ProfPic />
         <Cover />
+        <ProfPic />
     </div>
     </>
     )

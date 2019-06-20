@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button';
 
 // Components
-import Header from '../Header/Header';
 import Login from '../Login/Login'
 import UserList from '../UserList/UserList'
 import CreateUser from '../UserList/CreateUser/CreateUser'
@@ -18,11 +17,13 @@ class StartPage extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            users: [],
             creating: false,
+            login: false,
         }
         this.createUser = this.createUser.bind(this);
         this.closeModal = this.closeModal.bind(this);
+        this.loginUser = this.loginUser.bind(this);
+        this.closeLogin = this.closeLogin.bind(this);
     }
 
     createUser() {
@@ -31,6 +32,13 @@ class StartPage extends Component {
 
     closeModal() {
         this.setState({ creating: false });
+    }
+    loginUser() {
+        this.setState({ login: true });
+    }
+
+    closeLogin() {
+        this.setState({ login: false });
     }
     render() {
 
@@ -41,12 +49,12 @@ class StartPage extends Component {
                         <h1>Welcome to Blogosfera</h1>
                     </div>
                     <div className="body">
-                        <Button variant="primary" >Log In</Button>
+                        <Button variant="primary" onClick={this.loginUser} >Log In</Button>
                         <Button variant="secondary" onClick={this.createUser}> <FontAwesomeIcon icon={faHeart} /> Create Account</Button>
-                        <Login />
                     </div>
                 </div>
                 <CreateUser show={this.state.creating} hide={this.closeModal} />
+                <Login show={this.state.login} hide={this.closeLogin}/>
             </>
         )
     }

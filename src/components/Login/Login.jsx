@@ -56,9 +56,12 @@ class Login extends Component {
     if (this.state.loginError) {
       alert = (<Alert variant="danger">Check password or username!</Alert>);
     }
+
+    const  {username, password} = this.props;
+  
     return (
-        <Modal.Dialog>
-        <Modal.Header>
+      <Modal show={this.props.show} onHide={this.props.hide}>
+        <Modal.Header closeButton>
           <Modal.Title>Log In</Modal.Title>
         </Modal.Header>
         <Modal.Body>
@@ -86,7 +89,7 @@ class Login extends Component {
           <Button variant="primary" type="button" onClick={this.logIn}>Log In</Button>
         </Modal.Footer>
         {alert}
-        </Modal.Dialog>
+        </Modal>
       );
   }
 }

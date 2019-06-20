@@ -1,6 +1,7 @@
 import React from 'react';
 
 // Components
+import './Cover.css'; 
 
 const Cover = () => {
     return (
